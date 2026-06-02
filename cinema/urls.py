@@ -14,13 +14,13 @@ router = routers.DefaultRouter()
 router.register("actors", ActorViewSet, basename="actor")
 router.register("genres", GenreViewSet, basename="genre")
 router.register(
-    "cinema-halls",
+    "cinema_halls",
     CinemaHallViewSet,
     basename="cinema-hall"
 )
 router.register("movies", MovieViewSet, basename="movie")
 router.register(
-    "movie-sessions",
+    "movie_sessions",
     MovieSessionViewSet,
     basename="movie-session"
 )
